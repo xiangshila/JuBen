@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filters, #scriptForm {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.filters label, #scriptForm label {
+    margin-right: 15px;
+}
+
+.script-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.script-item {
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.script-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.script-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.script-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.admin-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#message {
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+}
+.script-item button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.script-item button:hover {
+    background-color: #cc0000;
+}

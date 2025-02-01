@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>剧本杀选本工具</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>剧本杀选本工具</h1>
+    <div class="filters">
+        <label>人数：<input type="number" id="playerCount" min="4" max="12"></label>
+        <label>类型：<select id="typeFilter">
+            <option value="">全部</option>
+            <option value="恐怖">恐怖</option>
+            <option value="欢乐">欢乐</option>
+            <option value="情感">情感</option>
+        </select></label>
+    </div>
+    <div id="scriptList" class="script-list"></div>
+    后台管理
+    <script src="scripts.js"></script>
+</body>
+</html>

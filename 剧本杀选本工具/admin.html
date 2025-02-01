@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>剧本杀后台管理</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>剧本杀后台管理</h1>
+    <form id="scriptForm">
+        <label>剧本名称：<input type="text" id="title" required></label>
+        <label>玩家人数：<input type="number" id="players" min="4" max="12" required></label>
+        <label>剧本类型：
+            <select id="type" required>
+                <option value="恐怖">恐怖</option>
+                <option value="欢乐">欢乐</option>
+                <option value="情感">情感</option>
+            </select>
+        </label>
+        <label>剧情简介：<textarea id="description" required></textarea></label>
+        <label>封面图片：<input type="file" id="cover" accept="image/*" required></label>
+        <button type="submit">添加剧本</button>
+    </form>
+    <div id="message"></div>
+    <h2>已上传的剧本</h2>
+    <div id="scriptList" class="script-list"></div>
+    <a href="index.html" class="admin-link">返回前台</a>
+    <script src="admin.js"></script>
+</body>
+</html>
